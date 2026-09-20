@@ -1,0 +1,39 @@
+# ============================================================
+#  JudeLiu_DHT — this repository holds the two firmware sketches
+#  only: dht22_monitor (production) and dht22_serial_logger (test).
+# ============================================================
+
+# ---- secrets (never commit) ----
+secrets.h
+
+# ---- not part of this repository ----
+# The web dashboard, the PCB design files and the CAD folder stay on the
+# author's machine. Remove these lines if you decide to publish them too.
+dashboard/
+pcb/
+cad/
+.zcode/
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Arduino build output ----
+build/
+*.bin
+*.elf
+*.map
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- Node / Next.js ----
+node_modules/
+.next/
+.vercel/
+out/
+
+# ---- env files ----
+.env
+.env.local
+.env*.local
