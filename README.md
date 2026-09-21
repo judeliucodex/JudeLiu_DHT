@@ -1,5 +1,11 @@
 # JudeLiu_DHT — ESP32 + DHT22 Temperature & Humidity Logger
 
+> [!IMPORTANT]
+> **📄 [Read the project self-reflection →](Self_Reflection.md)**
+>
+> What was fun about this project, why the software turned out to be the easy part, and how
+> drawing the PCB humbled me.
+
 An ESP32 reads a DHT22 temperature/humidity sensor every 3 seconds, shows the values on a small
 OLED, and pushes every reading to a Postgres backend in the cloud so the data can be viewed from
 anywhere. Readings that fail to upload are buffered in flash and backfilled when the network
@@ -14,7 +20,8 @@ ROV Team DHT22 mini project — firmware for the sensor node.
 
 ## Repository contents
 
-This repository holds the two firmware sketches and nothing else.
+This repository holds the two firmware sketches, plus the
+[self-reflection](Self_Reflection.md).
 
 | Sketch | Role | What it is |
 |---|---|---|
